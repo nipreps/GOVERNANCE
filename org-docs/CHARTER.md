@@ -1,6 +1,6 @@
-# Charter for the [FIXME] Organization
+# Charter for the *NiPreps Community* Organization
 
-This is the organizational charter for the [FIXME] Organization (the "Organization"). By adding their name to the Steering Committee.md file, Steering Committee members agree as follows.
+This is the organizational charter for the *NiPreps Community* Organization (the "Organization"). By adding their name to the `STEERING-COMMITTEE.md` file, Steering Committee members agree as follows.
 
 ## 1. Mission
 
@@ -10,7 +10,7 @@ This is the organizational charter for the [FIXME] Organization (the "Organizati
 
 **2.1 Purpose**. The Steering Committee will be responsible for all technical oversight, project approval and oversight, policy oversight, and trademark management for the Organization.
 
-**2.2 Composition**. The Steering Committee voting members are listed in the steering-committee.md file in the repository.
+**2.2 Composition**. The Steering Committee voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
 Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee.
 The Steering Committee will appoint a Chair responsible for organizing Steering Committee activity.
 
@@ -18,7 +18,7 @@ The Steering Committee will appoint a Chair responsible for organizing Steering 
 
 **3.1. Decision Making**. The Steering Committee will strive for all decisions to be made by consensus. While explicit agreement of the entire Steering Committee is preferred, it is not required for consensus. Rather, the Steering Committee will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Steering Committee and nature of support and objections. The Steering Committee will document evidence of consensus in accordance with these requirements. If consensus cannot be reached, the Steering Committee will make the decision by a vote.
 
-**3.2. Voting**. The Steering Committee Chair will call a vote with reasonable notice to the Steering Committee, setting out a discussion period and a separate voting period. Any discussion may be conducted in person or electronically by text, voice, or video. The discussion will be open to the public. In any vote, each voting representative will have one vote. Except as specifically noted elsewhere in this Charter, decisions by vote require a simple majority vote of all voting members.
+**3.2. Voting**. The Steering Committee Chair will call a vote with reasonable notice to the Steering Committee, setting out a discussion period and a separate voting period. Any discussion may be conducted in person or electronically by text, voice, or video. The discussion will be posted under the NiPreps category and open to the public, at the [*NiPy Discourse Forum*](https://nipy.discourse.group). In any vote, each voting representative will have one vote. Except as specifically noted elsewhere in this Charter, decisions by vote require a simple majority vote of all voting members.
 
 ## 4. Termination of Membership
 
@@ -47,8 +47,7 @@ In order to be eligible to be a Organization project, a project must:
 * Be approved by the Steering Committee.
 * Agree to follow the guidance and direction of the Steering Committee.
 * Use only the following outbound licenses or agreements unless otherwise approved:
-  - For code, a license on the Open Source Initiative's list of [Popular Licenses](https://opensource.org/licenses).
-  - For data, a license on the Open Knowledge Foundation's list of [Recommended Conformant Licenses](http://opendefinition.org/licenses/).
+  - For code and data as described in the *NiPreps Community* [licensing documentation](https://www.nipreps.org/community/licensing/)
   - For specifications, a community developed and maintained specification agreement, such the [Open Web Foundation Agreements](http://www.openwebfoundation.org/legal) or [Community Specification Agreement](https://github.com/CommunitySpecification/1.0).
 * Include and adhere to the Organization's policies, including the trademark policy, the antitrust-policy, and the code of conduct.
 
