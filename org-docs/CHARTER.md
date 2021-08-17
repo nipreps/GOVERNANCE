@@ -4,11 +4,24 @@ This is the organizational charter for the *NiPreps Community* Organization (the
 
 ## 1. Mission
 
-[Set out mission of the Organization].
+The current neuroimaging workflow has matured into a large chain of processing and analysis steps involving a large number of experts, across imaging modalities and applications.
+The development and fast adoption of [*fMRIPrep*](https://fmriprep.org) revealed that neuroscientists need tools that simplify their research workflow, provide visual reports and checkpoints, and engender trust in the tool itself.
+The NiPreps framework extends fMRIPrep's approach and principles to new imaging modalities.
+The mission of NiPreps is to provide end-users (i.e., researchers) with applications that allow them to perform quality control smoothly and to prepare their data for modeling and statistical analysis.
+In brief,
+
+> *NiPreps **augment the scanner** to produce data **directly consumable** by analyses*.
+
+We refer to *data directly consumable by analyses* as "*analysis-grade* data" by analogy with the concept of "*sushi-grade (or sashimi-grade) fish*" in that both are products that have been:
+
+* **minimally preprocessed**, but are
+* **safe to *consume*** directly.
 
 ## 2. Steering Committee
 
 **2.1 Purpose**. The Steering Committee will be responsible for all technical oversight, project approval and oversight, policy oversight, and trademark management for the Organization.
+The Steering Committee is in responsible for organizing and properly promote participation in community meetings called *NiPreps Roundups*.
+The frequency, date, time and platform of these *Roundups* is determined by the Steering Committee, but shall occur at least once a calendar year.
 
 **2.2 Composition**. The Steering Committee voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
 Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee.
@@ -42,16 +55,91 @@ Information disclosed in connection with any of the Organization's activities, i
 
 ## 8. Project Criteria
 
-In order to be eligible to be a Organization project, a project must:
+In order to be eligible to be an Organization project, a project must:
 
 * Be approved by the Steering Committee.
 * Agree to follow the guidance and direction of the Steering Committee.
 * Use only the following outbound licenses or agreements unless otherwise approved:
   - For code and data as described in the *NiPreps Community* [licensing documentation](https://www.nipreps.org/community/licensing/)
   - For specifications, a community developed and maintained specification agreement, such the [Open Web Foundation Agreements](http://www.openwebfoundation.org/legal) or [Community Specification Agreement](https://github.com/CommunitySpecification/1.0).
+* Have set up a continous integration and delivery (CI&CD) system, and have an automated release process that includes registration of new version tags on to Zenodo.
 * Include and adhere to the Organization's policies, including the trademark policy, the antitrust-policy, and the code of conduct.
 
-## 9. Amendments
+In addition to these general criteria, further requirements are set out depending on the project type.
+
+Once a Project has been accepted as part of the Organization, the main fork of said Project must be transferred under the [the *NiPreps Organization*](https://github.com/nipreps/)
+
+#### 8.1. End-user applications
+
+These are the actual “*-Preps*”, such as *fMRIPrep*, *dMRIPrep*, *ASLPrep*, or *PETPrep*, as well as their generalizations across populations/species (e.g., *fMRIPrep-rodents*, *fMRIPrep-infants*).
+Beyond the general requirements for any project, end-user application must:
+
+* Only and fully support BIDS and BIDS-Derivatives for the input and output data.
+* Be packaged as a fully-compliant BIDS-Apps, not just the user interface, but also in the continuous integration, testing, and delivery.
+* Be strictly scoped within preprocessing tasks (i.e., no analysis or irrecoverable preprocessing steps).
+* Be agnostic to subsequent analysis, i.e., any software supporting BIDS-Derivatives for its inputs should be capable to analyze data preprocessed with them.
+* Be thoroughly and transparently documented (including the generation of individual, visual reports with a consistent format that serve as scaffolds for understanding the underpinnings and design decisions).
+* Abide by the *NiPreps Community* charters about scientific authorship and publication.
+* Be modular, reliant on NiPreps' *core components* and widely-used tools such as AFNI, ANTs, FreeSurfer, FSL, NiLearn , or DIPY and be extensible via plug-ins.
+  Internal sub-modules of end-user applications with potential for generalizing over other “*-Preps*”, should be outsourced as an independent *core component* of the framework.
+
+At the time of passing these governance documents, the list of current end-user applications of the Organization is:
+
+* [*fMRIPrep*](https://github.com/nipreps/fmriprep)
+* [*dMRIPrep*](https://github.com/nipreps/dmriprep)
+* [*sMRIPrep*](https://github.com/nipreps/smriprep)
+* [*fMRIPrep-rodents*](https://github.com/nipreps/nirodents) -- currently called *NiRodents*
+* [*fMRIPrep-infants*](https://github.com/nipreps/nibabies) -- currently called *NiBabies*
+* [*MRIQC*](https://github.com/poldracklab/mriqc) -- currently under the PoldrackLab organization and awaiting for transferring over NiPreps.
+* *PETPrep* -- currently under a personal repository and awaiting for transfer over to NiPreps.
+* [*ASLPrep*](https://github.com/PennLINC/aslprep) -- currently under the PennLINC organization and awaiting for final terms of inclusion and potentially transference over to NiPreps.
+
+#### 8.2. Core-components: middleware utilities and software infrastructure
+
+These are helper tools covering generalizable tasks of processing, for example, *SDCFlows* for susceptibility distortion estimation and correction which caters to *fMRIPrep*, *dMRIPrep* and *ASLPrep*.
+
+Core-components of *NiPreps* must:
+
+* Have their API (application programming interface) clearly and comprehensively documented.
+* Adhere to the *NiPreps* guidelines on versioning and release roadmap.
+
+The list of core-components at the time of voting these initial governance documents cover:
+
+* [*SDCFlows*](https://github.com/nipreps/sdcflows)
+* [*NiWorkflows*](https://github.com/nipreps/niworkflows)
+* [*NiReports*](https://github.com/nipreps/nireports) -- planned in the roadmap
+* [*CrowdMRI*](https://github.com/poldracklab/mriqcwebapi) -- awaiting transfer from the PoldrackLab organization and currently named *MRIQC-WebAPI*.
+* *MRIQCnets* -- a very vage name to designate several projects investigating DL for QC tasks (e.g., an MRIQC implementation with CNNs or the [MRI face detector](https://github.com/poldracklab/mrideface)).
+  These projects are generally undefined, awaiting for transfer to the NiPreps organization and open to include new maintainers.
+
+#### 8.3. Sibling organizations
+
+When projects are particularly large, or based on other technical needs, they may be hosted on sister organizations.
+An updated list of sibling organizations is maintained in the document `SIBLING-ORGS.md`.
+At the moment of writing this charter only two organizations are considered siblings:
+
+* [*TemplateFlow*](https://templateflow.org) ([repo](https://github.com/templateflow/)).
+* [*NiPreps-Data*](https://github.com/nipreps-data/)
+
+Sister organizations have the category of project, and therefore decisions are made by consensus of all the maintainers.
+The maintainers of the project will be listed on a `MAINTAINERS.md` file hosted under a `GOVERNANCE` repository under the organization.
+The *NiPreps* TSC oversees sister organizations in the same ways it oversees projects.
+
+## 9. Authorship and scientific publications
+
+All end-user applications and core components have a `.main/` folder directly under the repository's root containing files and scripts to prepare author's lists before publication in scientific journals and or posting preprints or Zenodo entries.
+How these resources under `.maint/` must be used is described in the `project-docs/GOVERNANCE.md` document.
+
+End-user applications and core components that make use of other core components of the framework must include "*The NiPreps Developers*" collective of authors listed as a consortium.
+All authors within the consortium must be listed in the paper, following the guidelines of the journal to the effect.
+The collective of authors list is maintained in the `org-docs/COLLECTIVE-OF-AUTHORS.md` file.
+
+## 10. Enforcement of the Code of Conduct
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting Oscar Esteban at <code@oscaresteban.es>
+or Chris Markiewicz at <markiewicz@stanford.edu>, two members of the project team.
+
+## 11. Amendments
 
 Amendments to this charter, the antitrust policy, the trademark policy, or the code of conduct may only be made with at least a 3/4 affirmative vote of the Steering Committee.
 
