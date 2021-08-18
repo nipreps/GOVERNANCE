@@ -82,6 +82,12 @@ This Project follows the *NiPreps Community* guidelines for [releases](https://w
 The release process may be initiated by any Maintainer, who will follow the prescribed documentation to the effect.
 This project has an automated deployment pipeline triggered with a git tagging operation by a Maintainer, which ensures the minting of the correct version number, python and docker packaging, publication of packages in open repositories and finally, the posting of a new release entry at Zenodo.
 
+**Long-term support (LTS) release series**.
+End-user applications may commit to extended windows of support for particular version series (see [related documentation here](https://www.nipreps.org/devs/releases/#long-term-support-series)).
+Past release series are maintained with *maintenance* branches named `maint/<YY>.<minor>.x` (for instance fMRIPrep's `maint/20.2.x`).
+For those maintenance branches tagged as LTS series, the `.maint/MAINTAINERS.md` and the `.maint/PIs.md` may differ from those of the development (called `master` or `main`) branch.
+New contributors to a maintenance branch will be added to the `.maint/CONTRIBUTORS.md` file of that branch, and then upstreamed to posterior `maint/<series>` branches and the `master`/`main` branch of the repository.
+
 ### 4.2. Posting releases on Zenodo
 
 In the absence of higher-priority scientific publications, the appropriate Zenodo entry should be cited when referencing the Project.
