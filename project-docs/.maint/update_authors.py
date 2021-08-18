@@ -176,13 +176,20 @@ def zenodo(
     )
 
     zen_contributors, miss_contributors = sort_contributors(
-        _namelast(read_md_table(Path(contributors).read_text()))
-        + _namelast(read_md_table(Path(pi).read_text())),
+        _namelast(read_md_table(Path(contributors).read_text())),
         data,
         exclude=former
     )
+
+    zen_pi = _namelast(
+        sorted(
+            read_md_table(Path(pi).read_text()),
+            key=lambda v: (int(v.get("position", -1)), v.get("lastname"))
+        )
+    )
+
     zenodo["creators"] = zen_creators
-    zenodo["contributors"] = zen_contributors
+    zenodo["contributors"] = zen_contributors + zen_pi
 
     misses = set(miss_creators).intersection(miss_contributors)
     if misses:
@@ -236,14 +243,18 @@ def publication(
         exclude=_namelast(read_md_table(Path(former_file).read_text())),
     )
 
-    pi_hits, pi_misses = sort_contributors(
-        _namelast(read_md_table(Path(pi).read_text())),
-        get_git_lines(),
-        exclude=_namelast(read_md_table(Path(former_file).read_text())),
+    pi_hits = _namelast(
+        sorted(
+            read_md_table(Path(pi).read_text()),
+            key=lambda v: (int(v.get("position", -1)), v.get("lastname"))
+        )
     )
 
-    hits += pi_hits
-    misses += pi_misses
+    pi_names = [pi["name"] for pi in pi_hits]
+    hits = [
+        hit for hit in hits
+        if hit["name"] not in pi_names
+    ] + pi_hits
 
     def _aslist(value):
         if isinstance(value, (list, tuple)):
