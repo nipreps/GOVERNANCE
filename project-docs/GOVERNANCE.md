@@ -68,7 +68,7 @@ The Maintainers will document evidence of consensus in accordance with these req
 
 **3.5. Written procedures**. This governance document and other materials documenting this project's development process shall be available to any interested person.
 
-**3.6. Community roadmap and release planning**.
+**3.6. Project's roadmap and release planning**.
 Maintainers shall keep open planification documents and roadmap definition and maintenance, and are responsible to seek feedback and engage contributors in the process of defining the future lines of the Project.
 Principal investigators will inform Maintainers about the existing commitments with funding agencies and other relevant institutions in terms of deliverables and milestones that the Project might need to observe to respond to such commitments.
 In case of conflict between the Maintainers' criteria and the Principal investigators' proposal, an appeal must be addressed to the Organization Steering Committee.
