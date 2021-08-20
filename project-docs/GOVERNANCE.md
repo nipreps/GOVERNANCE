@@ -62,7 +62,12 @@ The Maintainers will document evidence of consensus in accordance with these req
 
 **3.2. Balance**. The development process should balance the interests of Contributors and other stakeholders. Contributors from diverse interest categories shall be sought with the objective of achieving balance.
 
-**3.3. Coordination and Harmonization**. Good faith efforts shall be made to resolve potential conflicts or incompatibility between releases in this Project.
+**3.3. Coordination and Harmonization**.
+Good faith efforts shall be made to resolve potential conflicts or incompatibility between releases in this Project.
+Not only will these efforts be directed toward the internal coordination of this Project, but also with other Projects of this Organization.
+Maintainers will promptly identify issues and bug-reports that correspond to other Projects in the Organization, and will proceed to transfer them to the appropriate Project.
+For instance, an issue reported at [nipreps/fmriprep](https://github.com/nipreps/fmriprep/issues) regarding a problem on some anatomical output will very likely fall in the scope of [nipreps/smriprep](https://github.com/nipreps/smriprep) and shall be transferred over to the latter Project.
+Similarly, Maintainers of a particular Project might need to coordinate with their counterpart on another to ensure the requirements for a new bug-fix or release are met, and to preempt dependency conflicts and incompatibility.
 
 **3.4. Consideration of Views and Objections**. Prompt consideration shall be given to the written views and objections of all Contributors.
 
