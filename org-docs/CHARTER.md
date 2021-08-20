@@ -125,6 +125,36 @@ Sister organizations have the category of project, and therefore decisions are m
 The maintainers of the project will be listed on a `MAINTAINERS.md` file hosted under a `GOVERNANCE` repository under the organization.
 The *NiPreps* TSC oversees sister organizations in the same ways it oversees projects.
 
+#### 8.4. Upstreaming core components
+
+The experience of *fMRIPrep* demonstrates that it is common to encounter processing steps patterns that replicate across modalities, tasks, or object of interest.
+For example, *sMRIPrep* was identified as a set of workflows that would be useful when used separately or in coordination with other modalities (e.g., DWI) although all the code was originally under the *fMRIPrep*'s repository and wasn't distributed as a standalone application.
+More recently, *SDCFlows* is another example of the same process to minimize redundancies across tools.
+
+When a functionality or feature is identified of interest to third-parties or other NiPreps components, the Maintainers must be informed about proposal (oftentimes, these proposals will emerge from one or more Maintainers).
+Then, the target Project in which the code is going to be upstreamed must be identified:
+
+* **(i) Upstreaming to existing components**.
+When the target Project already exists in NiPreps the Maintainers of the source project and the Maintainers of the target project must be in agreement that the proposal is adequate, and will be together responsible for overseeing the upstreaming process and for ensuring the process is finalized.
+The Maintainers of both source and target Project will operate as if they were a unique maintainers team, therefore decisions will be consensus-based, with the possibility of initiating appeal processing to the Organization Steering Committee.
+* **(ii) Upstreaming to a new project or to a new project under a sibling organization**.
+The Maintainers of the source project will proceed with the proposal of a new Organization project following the above guidelines.
+An example of this option will be set out by the extraction of the visual report system from *NiWorkflows* as a standalone project called *NiReports*.
+
+In either case, the Maintainers of the source project are responsible for taking all the reasonable measures to preserve the VCS (version control system) history whenever possible, as well as ensuring the `CONTRIBUTORS.md` files of source and target projects are up-to-date and properly represent contributors.
+If a contributor is to be transferred (or duplicated) into a sibling organization, they must be properly noticed.
+
+#### 8.5. Upstreaming to other organizations
+
+The most common case for these source code transfers will be the upstreaming of features to NiPype.
+As for **8.4.ii**, the Maintainers of the source project are responsible for ensuring that the procedure is carried out correctly:
+
+* keeping track of contribution and crediting thereof;
+* communicating with the Maintainers of the receiving Project and coordinating any necessary actions;
+* informing affected contributors, explicitly notifying of licensing terms changes, and aborting the upstreaming process if they do not agree with the transfer of their contributions;
+* whenever possible, guide and help contributors in the process of upstreaming the code themselves;
+* notify the Organization Steering Committee of the outbound code sharing action and assume any decision on the contrary, should it be issued.
+
 ## 9. Authorship and scientific publications
 
 All end-user applications and core components have a `.main/` folder directly under the repository's root containing files and scripts to prepare author's lists before publication in scientific journals and or posting preprints or Zenodo entries.
