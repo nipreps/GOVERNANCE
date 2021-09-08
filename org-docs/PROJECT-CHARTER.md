@@ -37,6 +37,8 @@ By contributing to the project, community members can directly help to shape its
 Contributors should read the [*NiPreps Community's guidelines*](https://www.nipreps.org/community/), which contain a [code of conduct](https://www.nipreps.org/community/CODE_OF_CONDUCT/), [contributing guidelines](https://www.nipreps.org/community/CONTRIBUTING/), and [criteria for accepting new features](https://www.nipreps.org/community/features/), amongst other relevant documents.
 Contributors agree to this policy and to abide by all Project polices by adding their name to the `.maint/CONTRIBUTORS.md` file.
 
+New contributors to a maintenance branch will be added to the `.maint/CONTRIBUTORS.md` file of that branch, and then upstreamed to posterior `maint/<series>` branches and the `master`/`main` branch of the repository.
+
 **1.3. Principal investigators**.
 PIs are those who provide or have provided institutional resources (personnel, funding, etc.) to the Project, and play a supervisory role over the development of the Project.
 PIs have reserved the last position as senior authors of papers and other dissemination activities.
@@ -91,7 +93,6 @@ This project has an automated deployment pipeline triggered with a git tagging o
 End-user applications may commit to extended windows of support for particular version series (see [related documentation here](https://www.nipreps.org/devs/releases/#long-term-support-series)).
 Past release series are maintained with *maintenance* branches named `maint/<YY>.<minor>.x` (for instance fMRIPrep's `maint/20.2.x`).
 For those maintenance branches tagged as LTS series, the `.maint/MAINTAINERS.md` and the `.maint/PIs.md` may differ from those of the development (called `master` or `main`) branch.
-New contributors to a maintenance branch will be added to the `.maint/CONTRIBUTORS.md` file of that branch, and then upstreamed to posterior `maint/<series>` branches and the `master`/`main` branch of the repository.
 
 ### 4.2. Posting releases on Zenodo
 
