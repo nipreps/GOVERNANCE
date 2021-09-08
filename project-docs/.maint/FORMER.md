@@ -4,5 +4,5 @@ This document lists former contributors or maintainers who want to disengage fro
 By adding your name to this list you are giving up on all your responsibilities to the project.
 Should you desire to be considered back as a contributor or maintainer, please remove your name from this list and proceed as prescribed in the governance documents.
 
-| **Lastname** | **Name** | **Handle** | **ORCID** | **Affiliation** |
-| --- | --- | --- | --- | --- |
+| **Lastname** | **Name** | **Handle** |
+| --- | --- | --- |
