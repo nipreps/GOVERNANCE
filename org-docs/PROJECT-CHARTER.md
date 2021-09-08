@@ -7,7 +7,7 @@ Anyone with an interest in the Project can join the Community, contribute to the
 
 This document provides the governance policy for the Project.
 In general, all *NiPreps Projects* embrace a [liberal contribution model](https://opensource.guide/leadership-and-governance/#what-are-some-of-the-common-governance-structures-for-open-source-projects) of governance structure.
-However, because of the scientific domain of NiPreps , the community features some structure from *meritocracy models* to prescribe [the order in the authors list of new papers](https://www.nipreps.org/community/CONTRIBUTING/#publications) about these tools.
+However, because of the scientific domain of NiPreps, the community features some structure from *meritocracy models* to prescribe [the order in the authors list of new papers](https://www.nipreps.org/community/CONTRIBUTING/#publications) about these tools.
 
 ## 1. Roles.
 
@@ -27,7 +27,7 @@ Any community member can become a contributor by interacting directly with the p
 * contributing with benchmarking modules of the tool;
 * reporting issues on our GitHub issues page;
 * helping improve the scientific rigor of implementations;
-* giving out support on the different communication channels (mattermost, NeuroStars , GitHub, etc.);
+* giving out support on the different communication channels (mattermost, NeuroStars, GitHub, etc.);
 * discussing the design of the library, website, or tutorials on the mailing list, or in existing issues and pull requests; or
 * reviewing open pull requests;
 
@@ -38,7 +38,7 @@ Contributors should read the [*NiPreps Community's guidelines*](https://www.nipr
 Contributors agree to this policy and to abide by all Project polices by adding their name to the `.maint/CONTRIBUTORS.md` file.
 
 **1.3. Principal investigators**.
-PIs are those who provide or have provided institutional resources (personnel, funding, etc.) to the Project, and play a supervision role over the development of the Project.
+PIs are those who provide or have provided institutional resources (personnel, funding, etc.) to the Project, and play a supervisory role over the development of the Project.
 PIs have reserved the last position as senior authors of papers and other dissemination activities.
 This Project may add or remove PIs with the approval of the Organization Steering Committee.
 PIs enlisted in the `.maint/PIs.md` file agree to this policy and to abide by all Project polices.
@@ -54,7 +54,7 @@ While explicit agreement of all Maintainers is preferred, it is not required for
 Rather, the Maintainers will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Contributors and nature of support and objections.
 The Maintainers will document evidence of consensus in accordance with these requirements.
 
-**2.2. Appeal Process**. Decisions may be appealed by opening an issue and that appeal will be considered by the Maintainers in good faith, who will respond in writing within a reasonable time. If the Maintainers deny the appeal, the appeal my be brought before the Organization Steering Committee, who will also respond in writing in a reasonable time.
+**2.2. Appeal Process**. Decisions may be appealed by opening an issue and that appeal will be considered by the Maintainers in good faith, who will respond in writing within a reasonable time. If the Maintainers deny the appeal, the appeal may be brought before the Organization Steering Committee, who will also respond in writing in a reasonable time.
 
 ## 3. How We Work.
 
@@ -74,8 +74,8 @@ Similarly, Maintainers of a particular Project might need to coordinate with the
 **3.5. Written procedures**. This governance document and other materials documenting this project's development process shall be available to any interested person.
 
 **3.6. Project's roadmap and release planning**.
-Maintainers shall keep open planification documents and roadmap definition and maintenance, and are responsible to seek feedback and engage contributors in the process of defining the future lines of the Project.
-Principal investigators will inform Maintainers about the existing commitments with funding agencies and other relevant institutions in terms of deliverables and milestones that the Project might need to observe to respond to such commitments.
+Maintainers shall keep open planning documents and roadmap definition and maintenance, and are responsible to seek feedback and engage contributors in the process of defining the future lines of the Project.
+Principal investigators will inform Maintainers about any existing commitments with funding agencies and other relevant institutions in terms of deliverables and milestones that the Project might need to observe to respond to such commitments.
 In case of conflict between the Maintainers' criteria and the Principal investigators' proposal, an appeal must be addressed to the Organization Steering Committee.
 The Project may maintain a `.maint/ROADMAP.md` stating how roadmaps are built, how issues are prioritized and organized, and the how the release process and achievement of deliverables and milestones are monitored.
 
