@@ -9,7 +9,7 @@ If you are participating because of your affiliation with another organization (
 
 | **Lastname** | **Name** | **Handle** | **ORCID** | **Affiliation** |
 | --- | --- | --- | --- | --- |
-| DuPre | Elizabeth | @emdupre | 0000-0003-1358-196X | Montreal Neurological Institute, McGill University |
-| Goncalves | Mathias | @mgxd | 0000-0002-7252-7771 | Department of Psychology, Stanford University |
-| MacNicol | Eilidh | @eilidhmacnicol | 0000-0003-3715-7012 | Department of Neuroimaging, King's College London |
-| Markiewicz | Christopher J. | @effigies | 0000-0002-6533-164X | Department of Psychology, Stanford University |
+| Jane | Doe | | | University Of Los Angeles |
+| AlFulaniyyah | Fulanah | | | Ahaggar Univeristy, Tamanrasset |
+| Mustermann | Max | | | Technische Universität Weitfortistan |
+| Hua | Li | | Chan Tai Man University |
