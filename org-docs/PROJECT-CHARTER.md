@@ -81,6 +81,8 @@ Principal investigators will inform Maintainers about any existing commitments w
 In case of conflict between the Maintainers' criteria and the Principal investigators' proposal, an appeal must be addressed to the Organization Steering Committee.
 The Project may maintain a `.maint/ROADMAP.md` stating how roadmaps are built, how issues are prioritized and organized, and the how the release process and achievement of deliverables and milestones are monitored.
 
+These guiding principles may be made more explicit on the `.maint/HOW_WE_WORK.md` file.
+
 ## 4. Release process and Scientific publication.
 
 ### 4.1. Releases

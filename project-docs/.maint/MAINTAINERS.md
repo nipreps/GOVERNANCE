@@ -7,9 +7,9 @@ If you are participating because of your affiliation with another organization (
 
 <!-- EXAMPLE: The current contents of the table are given for an example, please update. -->
 
-| **Lastname** | **Name** | **Handle** | **ORCID** | **Affiliation** |
-| --- | --- | --- | --- | --- |
-| Jane | Doe | | | University Of Los Angeles |
-| AlFulaniyyah | Fulanah | | | Ahaggar Univeristy, Tamanrasset |
-| Mustermann | Max | | | Technische Universität Weitfortistan |
-| Hua | Li | | Chan Tai Man University |
+| **Lastname** | **Name** | **Handle** | **ORCID** | **Affiliation** | **Role** |
+| --- | --- | --- | --- | --- | --- |
+| Jane | Doe | | | University Of Los Angeles | SG |
+| AlFulaniyyah | Fulanah | | | Ahaggar Univeristy, Tamanrasset | LD, OC |
+| Mustermann | Max | | | Technische Universität Weitfortistan |  |
+| Hua | Li | | Chan Tai Man University | |
