@@ -109,34 +109,34 @@ The list of core-components at the time of voting these initial governance docum
 * [*NiWorkflows*](https://github.com/nipreps/niworkflows)
 * [*NiReports*](https://github.com/nipreps/nireports) -- planned in the roadmap
 * [*CrowdMRI*](https://github.com/poldracklab/mriqcwebapi) -- awaiting transfer from the PoldrackLab organization and currently named *MRIQC-WebAPI*.
-* *MRIQCnets* -- a very vage name to designate several projects investigating DL for QC tasks (e.g., an MRIQC implementation with CNNs or the [MRI face detector](https://github.com/poldracklab/mrideface)).
-  These projects are generally undefined, awaiting for transfer to the NiPreps organization and open to include new maintainers.
+* *MRIQCnets* -- a very vague name to designate several projects investigating DL for QC tasks (e.g., an MRIQC implementation with CNNs or the [MRI face detector](https://github.com/poldracklab/mrideface)).
+  These projects are generally undefined, awaiting transfer to the NiPreps organization and open to include new maintainers.
 
 #### 8.3. Sibling organizations
 
-When projects are particularly large, or based on other technical needs, they may be hosted on sister organizations.
+When projects are particularly large, or based on other technical needs, they may be hosted by sister organizations.
 An updated list of sibling organizations is maintained in the document `SIBLING-ORGS.md`.
 At the moment of writing this charter only two organizations are considered siblings:
 
 * [*TemplateFlow*](https://templateflow.org) ([repo](https://github.com/templateflow/)).
 * [*NiPreps-Data*](https://github.com/nipreps-data/)
 
-Sister organizations have the category of project, and therefore decisions are made by consensus of all the maintainers.
+Sister organizations belong to the project category, and therefore decisions are made by consensus of all the maintainers.
 The maintainers of the project will be listed on a `MAINTAINERS.md` file hosted under a `GOVERNANCE` repository under the organization.
 The *NiPreps* TSC oversees sister organizations in the same ways it oversees projects.
 
 #### 8.4. Upstreaming core components
 
-The experience of *fMRIPrep* demonstrates that it is common to encounter processing steps patterns that replicate across modalities, tasks, or object of interest.
-For example, *sMRIPrep* was identified as a set of workflows that would be useful when used separately or in coordination with other modalities (e.g., DWI) although all the code was originally under the *fMRIPrep*'s repository and wasn't distributed as a standalone application.
+The experience of *fMRIPrep* demonstrates that it is common to encounter processing steps patterns that replicate across modalities, tasks, or objects of interest.
+For example, *sMRIPrep* was identified as a set of workflows that would be useful when used separately or in coordination with other modalities (e.g., DWI), although all the code was originally under the *fMRIPrep*'s repository and was not distributed as a standalone application.
 More recently, *SDCFlows* is another example of the same process to minimize redundancies across tools.
 
-When a functionality or feature is identified of interest to third-parties or other NiPreps components, the Maintainers must be informed about proposal (oftentimes, these proposals will emerge from one or more Maintainers).
+When a functionality or feature is identified as of interest to third-parties or other NiPreps components, the Maintainers must be informed about proposals (oftentimes, these proposals will emerge from one or more Maintainers).
 Then, the target Project in which the code is going to be upstreamed must be identified:
 
 * **(i) Upstreaming to existing components**.
-When the target Project already exists in NiPreps the Maintainers of the source project and the Maintainers of the target project must be in agreement that the proposal is adequate, and will be together responsible for overseeing the upstreaming process and for ensuring the process is finalized.
-The Maintainers of both source and target Project will operate as if they were a unique maintainers team, therefore decisions will be consensus-based, with the possibility of initiating appeal processing to the Organization Steering Committee.
+When the target Project already exists in NiPreps, the Maintainers of the source project and the Maintainers of the target project must be in agreement that the proposal is adequate, and will be together responsible for overseeing the upstreaming process and for ensuring the process is finalized.
+The Maintainers of both source and target Projects will operate as if they were a unique maintainers team. Therefore decisions will be consensus-based, with the possibility of initiating appeal processing to the Organization Steering Committee.
 * **(ii) Upstreaming to a new project or to a new project under a sibling organization**.
 The Maintainers of the source project will proceed with the proposal of a new Organization project following the above guidelines.
 An example of this option will be set out by the extraction of the visual report system from *NiWorkflows* as a standalone project called *NiReports*.
@@ -149,7 +149,7 @@ If a contributor is to be transferred (or duplicated) into a sibling organizatio
 The most common case for these source code transfers will be the upstreaming of features to NiPype.
 As for **8.4.ii**, the Maintainers of the source project are responsible for ensuring that the procedure is carried out correctly:
 
-* keeping track of contribution and crediting thereof;
+* keeping track of contributions and crediting thereof;
 * communicating with the Maintainers of the receiving Project and coordinating any necessary actions;
 * informing affected contributors, explicitly notifying of licensing terms changes, and aborting the upstreaming process if they do not agree with the transfer of their contributions;
 * whenever possible, guide and help contributors in the process of upstreaming the code themselves;
