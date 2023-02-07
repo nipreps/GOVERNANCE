@@ -12,4 +12,4 @@ If you are participating because of your affiliation with another organization (
 | Jane | Doe | | | University Of Los Angeles | SG |
 | AlFulaniyyah | Fulanah | | | Ahaggar Univeristy, Tamanrasset | LD, OC |
 | Mustermann | Max | | | Technische Universität Weitfortistan |  |
-| Hua | Li | | Chan Tai Man University | |
+| Hua | Li | | | Chan Tai Man University | |
