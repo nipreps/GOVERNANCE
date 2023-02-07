@@ -61,13 +61,13 @@ In order to be eligible to be an Organization project, a project must:
 * Agree to follow the guidance and direction of the Steering Committee.
 * Use only the following outbound licenses or agreements unless otherwise approved:
   - For code and data as described in the *NiPreps Community* [licensing documentation](https://www.nipreps.org/community/licensing/)
-  - For specifications, a community developed and maintained specification agreement, such the [Open Web Foundation Agreements](http://www.openwebfoundation.org/legal) or [Community Specification Agreement](https://github.com/CommunitySpecification/1.0).
-* Have set up a continous integration and delivery (CI&CD) system, and have an automated release process that includes registration of new version tags on to Zenodo.
+  - For specifications, a community developed and maintained specification agreement, such as the [Open Web Foundation Agreements](http://www.openwebfoundation.org/legal) or [Community Specification Agreement](https://github.com/CommunitySpecification/1.0).
+* Have set up a continuous integration and delivery (CI&CD) system, and have an automated release process that includes registration of new version tags onto Zenodo.
 * Include and adhere to the Organization's policies, including the trademark policy, the antitrust-policy, and the code of conduct.
 
 In addition to these general criteria, further requirements are set out depending on the project type.
 
-Once a Project has been accepted as part of the Organization, the main fork of said Project must be transferred under the [the *NiPreps Organization*](https://github.com/nipreps/)
+Once a Project has been accepted as part of the Organization, the main fork of said Project must be transferred under [the *NiPreps Organization*](https://github.com/nipreps/)
 
 #### 8.1. End-user applications
 
@@ -75,7 +75,7 @@ These are the actual “*-Preps*”, such as *fMRIPrep*, *dMRIPrep*, *ASLPrep*, 
 Beyond the general requirements for any project, end-user application must:
 
 * Only and fully support BIDS and BIDS-Derivatives for the input and output data.
-* Be packaged as a fully-compliant BIDS-Apps, not just the user interface, but also in the continuous integration, testing, and delivery.
+* Be packaged as a fully-compliant BIDS-Apps, not just in the user interface, but also in the continuous integration, testing, and delivery.
 * Be strictly scoped within preprocessing tasks (i.e., no analysis or irrecoverable preprocessing steps).
 * Be agnostic to subsequent analysis, i.e., any software supporting BIDS-Derivatives for its inputs should be capable to analyze data preprocessed with them.
 * Be thoroughly and transparently documented (including the generation of individual, visual reports with a consistent format that serve as scaffolds for understanding the underpinnings and design decisions).
