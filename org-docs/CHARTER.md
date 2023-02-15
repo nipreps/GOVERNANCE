@@ -25,7 +25,7 @@ The frequency, date, time and platform of these *Roundups* is determined by the 
 
 **2.2 Composition**. The Steering Committee voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
 Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee.
-The number of members of the Steering Committee must always at least three and odd.
+The number of members of the Steering Committee must always be at least three and odd.
 In particular, this rule must be respected when adding and removing members.
 The Steering Committee will appoint a Chair responsible for organizing Steering Committee activity.
 
