@@ -24,7 +24,9 @@ The Steering Committee is in responsible for organizing and properly promote par
 The frequency, date, time and platform of these *Roundups* is determined by the Steering Committee, but shall occur at least once a calendar year.
 
 **2.2 Composition**. The Steering Committee voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
-Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee. The number of members of the Steering Committee must always be greater than three and odd. In particular, this rule must be respected when adding and removing members.
+Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee.
+The number of members of the Steering Committee must always at least three and odd.
+In particular, this rule must be respected when adding and removing members.
 The Steering Committee will appoint a Chair responsible for organizing Steering Committee activity.
 
 ## 3. Voting
