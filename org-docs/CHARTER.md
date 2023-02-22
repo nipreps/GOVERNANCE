@@ -21,7 +21,7 @@ We refer to *data directly consumable by analyses* as "*analysis-grade* data" by
 
 **2.1 Purpose**. The NSC will be responsible for all technical oversight, project approval and oversight, policy oversight, and trademark management for the Organization.
 The NSC is in responsible for organizing and properly promote participation in community meetings called *NiPreps Roundups*.
-The frequency, date, time and platform of these *Roundups* is determined by the NSC, but shall occur at least once a calendar year.
+The frequency, date, time and platform of these *Roundups* are determined by the NSC, but shall occur at least once a calendar year.
 Finally, the NSC is also ultimately responsible for securing the coordination of the *NiPreps Technical Monitoring meetings* described in the `PROJECT-CHARTER.md` document.
 
 **2.2 Composition**. The NSC voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
