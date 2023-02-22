@@ -67,6 +67,13 @@ Maintainers will promptly identify issues and bug-reports that correspond to oth
 For instance, an issue reported at [nipreps/fmriprep](https://github.com/nipreps/fmriprep/issues) regarding a problem on some anatomical output will very likely fall in the scope of [nipreps/smriprep](https://github.com/nipreps/smriprep) and shall be transferred over to the latter Project.
 Similarly, Maintainers of a particular Project might need to coordinate with their counterpart on another to ensure the requirements for a new bug-fix or release are met, and to preempt dependency conflicts and incompatibility.
 
+Projects must define a `.maint/HOW_WE_WORK.md` file, where specificities about the maintenance and internal communication of the Project are documented.
+In particular, projects must define an *Outbound Coordinator*, responsible for representing the Project and keeping the communications and information flow with other projects.
+
+In addition to the communication infrastructure of the Project, any of the MAINTAINERS and CONTRIBUTORS of the Project may join the *NiPreps Technical Monitoring meetings*, which keep track of the technical aspects across all projects.
+These meetings are held bi-weekly, but it is a decision of all the *Outbound Coordinators* (and the NSC, in case of disagreement) to increase or reduce this frequency.
+To keep track of the progress, the *NiPreps Technical Monitoring meetings* are closely referred to a [GitHub Project board](https://github.com/orgs/nipreps/projects/7) reflecting the most immediate roadmap of each project.
+
 **3.4. Consideration of Views and Objections**. Prompt consideration shall be given to the written views and objections of all Contributors.
 
 **3.5. Written procedures**. This governance document and other materials documenting this project's development process shall be available to any interested person.
