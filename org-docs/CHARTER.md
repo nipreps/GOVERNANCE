@@ -1,6 +1,6 @@
 # Charter for the *NiPreps Community* Organization
 
-This is the organizational charter for the *NiPreps Community* Organization (the "Organization"). By adding their name to the `STEERING-COMMITTEE.md` file, Steering Committee members agree as follows.
+This is the organizational charter for the *NiPreps Community* Organization (the "Organization"). By adding their name to the `STEERING-COMMITTEE.md` file, the members of the NiPreps Steering Committee (in the following, *NSC*) agree as follows.
 
 ## 1. Mission
 
@@ -17,39 +17,43 @@ We refer to *data directly consumable by analyses* as "*analysis-grade* data" by
 * **minimally preprocessed**, but are
 * **safe to *consume*** directly.
 
-## 2. Steering Committee
+## 2. NiPreps Steering Committee (NSC)
 
-**2.1 Purpose**. The Steering Committee will be responsible for all technical oversight, project approval and oversight, policy oversight, and trademark management for the Organization.
-The Steering Committee is in responsible for organizing and properly promote participation in community meetings called *NiPreps Roundups*.
-The frequency, date, time and platform of these *Roundups* is determined by the Steering Committee, but shall occur at least once a calendar year.
+**2.1 Purpose**. The NSC will be responsible for all technical oversight, project approval and oversight, policy oversight, and trademark management for the Organization.
+The NSC is in responsible for organizing and properly promote participation in community meetings called *NiPreps Roundups*.
+The frequency, date, time and platform of these *Roundups* are determined by the NSC, but shall occur at least once a calendar year.
+Finally, the NSC is also ultimately responsible for securing the coordination of the *NiPreps Technical Monitoring meetings* described in the `PROJECT-CHARTER.md` document.
 
-**2.2 Composition**. The Steering Committee voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
-Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee.
-The number of members of the Steering Committee must always be at least three and odd.
+**2.2 Composition**. The NSC voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
+Voting members may be added or removed by no less than three-quarters (3/4) affirmative vote of the NSC.
+The number of members of the NSC is must be an odd number, and it is three (3) as of the approval of this document.
+Although not mandatory, members of the NSC preferably are active MAINTAINERS of at least one NiPreps project, or have served in the past.
 In particular, this rule must be respected when adding and removing members.
-The Steering Committee will appoint a Chair responsible for organizing Steering Committee activity.
+Therefore, the time lapse with an even number of members after the removal of a member should be minimized by appointing a replacement as fast as possible (or even before the removal).
+Likewise, when growing the NSC number of members, it must be done by steps of two (e.g., from three to five), and this decision will also require a 3/4 majority.
+The NSC will appoint a Chair responsible for organizing NSC activity.
 
 ## 3. Voting
 
-**3.1. Decision Making**. The Steering Committee will strive for all decisions to be made by consensus. While explicit agreement of the entire Steering Committee is preferred, it is not required for consensus. Rather, the Steering Committee will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Steering Committee and nature of support and objections. The Steering Committee will document evidence of consensus in accordance with these requirements. If consensus cannot be reached, the Steering Committee will make the decision by a vote.
+**3.1. Decision Making**. The NSC will strive for all decisions to be made by consensus. While explicit agreement of the entire NSC is preferred, it is not required for consensus. Rather, the NSC will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the NSC and nature of support and objections. The NSC will document evidence of consensus in accordance with these requirements. If consensus cannot be reached, the NSC will make the decision by a vote.
 
-**3.2. Voting**. The Steering Committee Chair will call a vote with reasonable notice to the Steering Committee, setting out a discussion period and a separate voting period. Any discussion may be conducted in person or electronically by text, voice, or video. The discussion will be posted under the NiPreps category and open to the public, at the [*NiPy Discourse Forum*](https://nipy.discourse.group). In any vote, each voting representative will have one vote. Except as specifically noted elsewhere in this Charter, decisions by vote require a simple majority vote of all voting members.
+**3.2. Voting**. The NSC Chair will call a vote with reasonable notice to the NSC, setting out a discussion period and a separate voting period. Any discussion may be conducted in person or electronically by text, voice, or video. The discussion will be posted under the NiPreps category and open to the public, at the [*NiPy Discourse Forum*](https://nipy.discourse.group). In any vote, each voting representative will have one vote. Decisions by vote require a simple majority vote of all voting members except if specifically noted elsewhere in this Charter (e.g., changes to composition). In simple-majority votes, the Chair of the NSC holds tie-breaking vote.
 
 ## 4. Termination of Membership
 
-In addition to the method set out in section 2.2, the membership of a Steering Committee member will terminate if any of the following occur:
+In addition to the method set out in section 2.2, the membership of a NSC member will terminate if any of the following occur:
 
-**4.1 Resignation**. Written notice of resignation to the Steering Committee.
+**4.1 Resignation**. Written notice of resignation to the NSC.
 
-**4.2 Unreachable Member**. If a member is unresponsive at its listed handle for more than three months the Steering Committee may vote to remove the member.
+**4.2 Unreachable Member**. If a member is unresponsive at its listed handle for more than three months the NSC may vote to remove the member.
 
 ## 5. Trademarks
 
-Any names, trademarks, service marks, logos, mascots, or similar indicators of source or origin and the goodwill associated with them arising out of the Organization's activities or Organization projects' activities (the "Marks"), are controlled by the Organization. Steering Committee members may only use the Marks in accordance with the Organization's trademark policy. If a Steering Committee member is terminated or removed from the Steering Committee, any rights the Steering Committee member may have in the Marks revert to the Organization.
+Any names, trademarks, service marks, logos, mascots, or similar indicators of source or origin and the goodwill associated with them arising out of the Organization's activities or Organization projects' activities (the "Marks"), are controlled by the Organization. NSC members may only use the Marks in accordance with the Organization's trademark policy. If a NSC member is terminated or removed from the NSC, any rights the NSC member may have in the Marks revert to the Organization.
 
 ## 6. Antitrust Policy
 
-The Steering Committee is bound by the Organization's antitrust policy.
+The NSC is bound by the Organization's antitrust policy.
 
 ## 7. No Confidentiality
 
@@ -59,8 +63,8 @@ Information disclosed in connection with any of the Organization's activities, i
 
 In order to be eligible to be an Organization project, a project must:
 
-* Be approved by the Steering Committee.
-* Agree to follow the guidance and direction of the Steering Committee.
+* Be approved by the NSC.
+* Agree to follow the guidance and direction of the NSC.
 * Use only the following outbound licenses or agreements unless otherwise approved:
   - For code and data as described in the *NiPreps Community* [licensing documentation](https://www.nipreps.org/community/licensing/)
   - For specifications, a community developed and maintained specification agreement, such as the [Open Web Foundation Agreements](http://www.openwebfoundation.org/legal) or [Community Specification Agreement](https://github.com/CommunitySpecification/1.0).
@@ -110,8 +114,8 @@ The list of core-components at the time of voting these initial governance docum
 * [*SDCFlows*](https://github.com/nipreps/sdcflows)
 * [*NiWorkflows*](https://github.com/nipreps/niworkflows)
 * [*NiReports*](https://github.com/nipreps/nireports) -- planned in the roadmap
-* [*CrowdMRI*](https://github.com/poldracklab/mriqcwebapi) -- awaiting transfer from the PoldrackLab organization and currently named *MRIQC-WebAPI*.
-* *MRIQCnets* -- a very vague name to designate several projects investigating DL for QC tasks (e.g., an MRIQC implementation with CNNs or the [MRI face detector](https://github.com/poldracklab/mrideface)).
+* [*CrowdMRI*](https://github.com/nipreps/mriqcwebapi) -- awaiting transfer from the PoldrackLab organization and currently named *MRIQC-WebAPI*.
+* *MRIQCnets* -- a very vague name to designate several projects investigating DL for QC tasks (e.g., an MRIQC implementation with CNNs or the [MRI nondefaced detector](https://github.com/nipreps/nondefaced-detector)).
   These projects are generally undefined, awaiting transfer to the NiPreps organization and open to include new maintainers.
 
 #### 8.3. Sibling organizations
@@ -138,7 +142,7 @@ Then, the target Project in which the code is going to be upstreamed must be ide
 
 * **(i) Upstreaming to existing components**.
 When the target Project already exists in NiPreps, the Maintainers of the source project and the Maintainers of the target project must be in agreement that the proposal is adequate, and will be together responsible for overseeing the upstreaming process and for ensuring the process is finalized.
-The Maintainers of both source and target Projects will operate as if they were a unique maintainers team. Therefore decisions will be consensus-based, with the possibility of initiating appeal processing to the Organization Steering Committee.
+The Maintainers of both source and target Projects will operate as if they were a unique maintainers team. Therefore decisions will be consensus-based, with the possibility of initiating appeal processing to the NSC.
 * **(ii) Upstreaming to a new project or to a new project under a sibling organization**.
 The Maintainers of the source project will proceed with the proposal of a new Organization project following the above guidelines.
 An example of this option will be set out by the extraction of the visual report system from *NiWorkflows* as a standalone project called *NiReports*.
@@ -155,7 +159,7 @@ As for **8.4.ii**, the Maintainers of the source project are responsible for ens
 * communicating with the Maintainers of the receiving Project and coordinating any necessary actions;
 * informing affected contributors, explicitly notifying of licensing terms changes, and aborting the upstreaming process if they do not agree with the transfer of their contributions;
 * whenever possible, guide and help contributors in the process of upstreaming the code themselves;
-* notify the Organization Steering Committee of the outbound code sharing action and assume any decision on the contrary, should it be issued.
+* notify the NSC of the outbound code sharing action and assume any decision on the contrary, should it be issued.
 
 ## 9. Authorship and scientific publications
 
@@ -173,7 +177,7 @@ or Chris Markiewicz at <markiewicz@stanford.edu>, two members of the project tea
 
 ## 11. Amendments
 
-Amendments to this charter, the antitrust policy, the trademark policy, or the code of conduct may only be made with at least a 3/4 affirmative vote of the Steering Committee.
+Amendments to this charter, the antitrust policy, the trademark policy, or the code of conduct may only be made with at least a 3/4 affirmative vote of the NSC.
 
 ---
 Part of MVG-0.1-beta.
