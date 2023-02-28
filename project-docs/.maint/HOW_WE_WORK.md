@@ -23,6 +23,10 @@ The Project has designated three specific roles that Maintainers will cover:
   The SG may also lead meetings and keeps up-to-date the GitHub Project panel and the Milestones of this Project.
 * **(iii)** *Outbound Coordinator (OC)*.
   The OC is responsible for communicating with the maintainers of other projects (the project's OC, if the role is assigned) in the organization, ensuring that potential conflicts or incompatibility between releases across projects are resolved.
+* **(iv)** *Advisory Member (AM)*.
+  AMs are invited maintainers to assist in fulfilling the maintenance duties and responsibilities by sharing their knowledge and resources with the board.
+  However, AMs are not directly responsible for the Project's direction and may or may not be involved in the decision making (which should be agreed upon by the MAINTAINERS board before starting their activities as AMs).
+  The Project may have as many AMs as the regular members see necessary to properly develop the Project.
 
 ## Project management
 
@@ -51,4 +55,3 @@ These meetings can be organized to:
 This Project follows [the general recommendations of *NiPreps*](https://www.nipreps.org/community/CONTRIBUTING/#issue-labels).
 
 <!-- OPTIONAL CONTENTS end here -->
-
