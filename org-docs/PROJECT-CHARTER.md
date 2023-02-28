@@ -86,7 +86,7 @@ The Project may maintain a `.maint/ROADMAP.md` stating how roadmaps are built, h
 
 These guiding principles may be made more explicit on the `.maint/HOW_WE_WORK.md` file.
 
-## 4. Release process and Scientific publication.
+## 4. Release Process and Scientific Publication.
 
 ### 4.1. Releases
 
