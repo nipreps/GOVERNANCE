@@ -11,7 +11,7 @@ However, because of the scientific domain of NiPreps, the community features som
 
 ## 1. Roles.
 
-This project may include the following roles. Additional roles may be adopted and documented by the Project.
+This Project may include the following roles. Additional roles may be adopted and documented by the Project.
 
 **1.1. Maintainers**.
 Maintainers are members of a wonderful team *driving the Project* and thereby are responsible for organizing activities around developing, maintaining, and updating the Project.
@@ -21,7 +21,7 @@ This Project may add or remove Maintainers with the approval of the current Main
 Maintainers agree to this policy and to abide by all Project polices, including the code of conduct, trademark policy, and antitrust policy by adding their name to the `.maint/MAINTAINERS.md` file.
 
 **1.2. Contributors**. Contributors are those who actively help or have previously helped the Project in a broad sense.
-Any community member can become a contributor by interacting directly with the project in concrete ways, such as:
+Any community member can become a contributor by interacting directly with the Project in concrete ways, such as:
 
 * proposing new features, changes to the code or documentation improvements via a GitHub pull request;
 * contributing with benchmarking modules of the tool;
@@ -32,7 +32,7 @@ Any community member can become a contributor by interacting directly with the p
 * reviewing open pull requests;
 
 among other possibilities.
-By contributing to the project, community members can directly help to shape its future.
+By contributing to the Project, community members can directly help to shape its future.
 
 Contributors should read the [*NiPreps Community's guidelines*](https://www.nipreps.org/community/), which contain a [code of conduct](https://www.nipreps.org/community/CODE_OF_CONDUCT/), [contributing guidelines](https://www.nipreps.org/community/CONTRIBUTING/), and [criteria for accepting new features](https://www.nipreps.org/community/features/), amongst other relevant documents.
 Contributors agree to this policy and to abide by all Project polices by adding their name to the `.maint/CONTRIBUTORS.md` file.
@@ -76,7 +76,7 @@ To keep track of the progress, the *NiPreps Technical Monitoring meetings* are c
 
 **3.4. Consideration of Views and Objections**. Prompt consideration shall be given to the written views and objections of all Contributors.
 
-**3.5. Written procedures**. This governance document and other materials documenting this project's development process shall be available to any interested person.
+**3.5. Written procedures**. This governance document and other materials documenting this Project's development process shall be available to any interested person.
 
 **3.6. Project's roadmap and release planning**.
 Maintainers shall keep open planning documents and roadmap definition and maintenance, and are responsible to seek feedback and engage contributors in the process of defining the future lines of the Project.
