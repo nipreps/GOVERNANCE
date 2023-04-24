@@ -1,0 +1,24 @@
+# Core-components: middleware utilities and software infrastructure
+
+| **NAME** | **GITHUB** | **URL** | **PYPI** |
+| --- | --- | --- | ---|
+| Nipreps Python Namespace | https://github.com/nipreps/nipreps | | nipreps |
+| SDCFlows | https://github.com/nipreps/sdcflows | | sdcflows |
+| EddyMotion | https://github.com/nipreps/eddymotion | | eddymotion |
+| NiReports | https://github.com/nipreps/nireports | | nireports |
+| NiRodents | https://github.com/nipreps/nirodents | | nirodents |
+| MRIQC-learn | https://github.com/nipreps/mriqc-learn | | mriqc-learn |
+| Version Schemes | https://github.com/nipreps/version-schemes | | nipreps-versions |
+| Q'Kay Report Manager | https://github.com/nipreps/qkay | | |
+| MRIQC-WebAPI | https://github.com/nipreps/mriqc-webapi | | |
+| MRIQC-WebAPI Schemas | https://github.com/nipreps/mriqc-webapi-schemas | | |
+| Nondefaced Detector | https://github.com/nipreps/nondefaced-detector | | nipreps |
+| Generalizable brain extraction | https://github.com/nipreps/generalizable-brain-extraction | | nipreps |
+| NiWorkflows | https://github.com/nipreps/niworkflows | | niworkflows |
+| SynthStrip Wrapper | https://github.com/nipreps/synthstrip | | nipreps-synthstrip |
+| AROMA for fMRIPrep | https://github.com/nipreps/fmripost-aroma | | |
+| MIGAS Server | https://github.com/nipreps/migas-server | |
+| MIGAS Client | https://github.com/nipreps/migas-py | |
+| Micro Nipype | https://github.com/nipreps/micro-nipype | |
+| dMRIPrep viewer | https://github.com/nipreps/dmriprep-viewer | |
+| fMRIPrep Sentry Analytics | https://github.com/nipreps/fmriprep_stats | |

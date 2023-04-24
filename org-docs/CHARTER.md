@@ -27,17 +27,28 @@ Finally, the NSC is also ultimately responsible for securing the coordination of
 **2.2 Composition**. The NSC voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
 Voting members may be added or removed by no less than three-quarters (3/4) affirmative vote of the NSC.
 The number of members of the NSC is must be an odd number, and it is three (3) as of the approval of this document.
-Although not mandatory, members of the NSC preferably are active MAINTAINERS of at least one NiPreps project, or have served in the past.
+Although not mandatory, members of the NSC preferably are active MAINTAINERS of at least one NiPreps project of those listed in the `PREPS-END-USER.md` file (see section 8 below), be listed as a maintainer of the *TemplateFlow* sibling-organization, or have served in the past.
 In particular, this rule must be respected when adding and removing members.
 Therefore, the time lapse with an even number of members after the removal of a member should be minimized by appointing a replacement as fast as possible (or even before the removal).
 Likewise, when growing the NSC number of members, it must be done by steps of two (e.g., from three to five), and this decision will also require a 3/4 majority.
 The NSC will appoint a Chair responsible for organizing NSC activity.
+The NSC Chair will be also responsible for the secure management of secrets, access, and permissions to foundational resources such as:
+  * GitHub organizations (nipreps and siblings),
+  * the [`nipreps-bot`](https://github.com/nipreps-bot) GitHub robot-user,
+  * the <nipreps@gmail.org> e-mail account and all associated Google services (e.g., Google Drive),
+  * the [`niprepsbot` DockerHub user](https://hub.docker.com/u/niprepsbot) and the [`nipreps` DockerHub organization](https://hub.docker.com/u/nipreps),
+  * the CircleCI subscription,
+  * the Sentry.io subscription,
+  * the [nipreps user at Pypi](https://pypi.org/user/nipreps/),
+  * the [NiPreps GH Bot at OSF.io](https://osf.io/2yrct/),
+  * the [`nipreps-admin` user at g-node](https://gin.g-node.org/nipreps-admin), and
+  * any other service not listed here.
 
 ## 3. Voting
 
 **3.1. Decision Making**. The NSC will strive for all decisions to be made by consensus. While explicit agreement of the entire NSC is preferred, it is not required for consensus. Rather, the NSC will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the NSC and nature of support and objections. The NSC will document evidence of consensus in accordance with these requirements. If consensus cannot be reached, the NSC will make the decision by a vote.
 
-**3.2. Voting**. The NSC Chair will call a vote with reasonable notice to the NSC, setting out a discussion period and a separate voting period. Any discussion may be conducted in person or electronically by text, voice, or video. The discussion will be posted under the NiPreps category and open to the public, at the [*NiPy Discourse Forum*](https://nipy.discourse.group). In any vote, each voting representative will have one vote. Decisions by vote require a simple majority vote of all voting members except if specifically noted elsewhere in this Charter (e.g., changes to composition). In simple-majority votes, the Chair of the NSC holds tie-breaking vote.
+**3.2. Voting**. The NSC Chair will call a vote with reasonable notice to the NSC, setting out a discussion period and a separate voting period. Any discussion may be conducted in person or electronically by text, voice, or video. The discussion will be posted under the ["Issues" tab of the `nipreps/GOVERNANCE` repository](https://github.com/nipreps/GOVERNANCE/issues) (that is, this repository) and open to the public. In any vote, each voting representative will have one vote. Decisions by vote require a simple majority vote of all voting members except if specifically noted elsewhere in this Charter (e.g., changes to composition). In simple-majority votes, the Chair of the NSC holds tie-breaking vote.
 
 ## 4. Termination of Membership
 
@@ -89,16 +100,7 @@ Beyond the general requirements for any project, end-user application must:
 * Be modular, reliant on NiPreps' *core components* and widely-used tools such as AFNI, ANTs, FreeSurfer, FSL, NiLearn , or DIPY and be extensible via plug-ins.
   Internal sub-modules of end-user applications with potential for generalizing over other “*-Preps*”, should be outsourced as an independent *core component* of the framework.
 
-At the time of passing these governance documents, the list of current end-user applications of the Organization is:
-
-* [*fMRIPrep*](https://github.com/nipreps/fmriprep)
-* [*dMRIPrep*](https://github.com/nipreps/dmriprep)
-* [*sMRIPrep*](https://github.com/nipreps/smriprep)
-* [*fMRIPrep-rodents*](https://github.com/nipreps/nirodents) -- currently called *NiRodents*
-* [*fMRIPrep-infants*](https://github.com/nipreps/nibabies) -- currently called *NiBabies*
-* [*MRIQC*](https://github.com/poldracklab/mriqc) -- currently under the PoldrackLab organization and awaiting for transferring over NiPreps.
-* *PETPrep* -- currently under a personal repository and awaiting for transfer over to NiPreps.
-* [*ASLPrep*](https://github.com/PennLINC/aslprep) -- currently under the PennLINC organization and awaiting for final terms of inclusion and potentially transference over to NiPreps.
+An updated list of end-user applications is maintained in the document `PREPS-END-USER.md`.
 
 #### 8.2. Core-components: middleware utilities and software infrastructure
 
@@ -109,29 +111,27 @@ Core-components of *NiPreps* must:
 * Have their API (application programming interface) clearly and comprehensively documented.
 * Adhere to the *NiPreps* guidelines on versioning and release roadmap.
 
-The list of core-components at the time of voting these initial governance documents cover:
+The maintainers of core-components are recommended to abide by the dispositions of this `CHARTER.md` document and the project-level documents under the `project-docs/` of this `GOVERNANCE` repository.
+In the case that a core-component does strictly follow these guidelines and prescriptions, for instance, the repo does not have a `.maint/MAINTAINERS.md` file, then discussions and resolutions rely on the members of the *NiPreps Technical Monitoring meetings*, the maintainers of end-user applications, and, ultimately, the NSC.
 
-* [*SDCFlows*](https://github.com/nipreps/sdcflows)
-* [*NiWorkflows*](https://github.com/nipreps/niworkflows)
-* [*NiReports*](https://github.com/nipreps/nireports) -- planned in the roadmap
-* [*CrowdMRI*](https://github.com/nipreps/mriqcwebapi) -- awaiting transfer from the PoldrackLab organization and currently named *MRIQC-WebAPI*.
-* *MRIQCnets* -- a very vague name to designate several projects investigating DL for QC tasks (e.g., an MRIQC implementation with CNNs or the [MRI nondefaced detector](https://github.com/nipreps/nondefaced-detector)).
-  These projects are generally undefined, awaiting transfer to the NiPreps organization and open to include new maintainers.
+An updated list of core-components is maintained in the document `PREPS-CORE.md`.
 
-#### 8.3. Sibling organizations
+#### 8.3. Other components: documentation and organizational infrastructure
+
+Repositories and projects supporting the online documentation that are detached from specific end-user applications or core components are listed in the document `PREPS-DOCUMENTATION.md`.
+
+Repositories and projects supporting organizational-level infrastructure are listed in the document `PREPS-INFRASTRUCTURE.md`.
+
+#### 8.4. Sibling organizations
 
 When projects are particularly large, or based on other technical needs, they may be hosted by sister organizations.
 An updated list of sibling organizations is maintained in the document `SIBLING-ORGS.md`.
-At the moment of writing this charter only two organizations are considered siblings:
-
-* [*TemplateFlow*](https://templateflow.org) ([repo](https://github.com/templateflow/)).
-* [*NiPreps-Data*](https://github.com/nipreps-data/)
 
 Sister organizations belong to the project category, and therefore decisions are made by consensus of all the maintainers.
 The maintainers of the project will be listed on a `MAINTAINERS.md` file hosted under a `GOVERNANCE` repository under the organization.
 The *NiPreps* TSC oversees sister organizations in the same ways it oversees projects.
 
-#### 8.4. Upstreaming core components
+#### 8.5. Upstreaming core components
 
 The experience of *fMRIPrep* demonstrates that it is common to encounter processing steps patterns that replicate across modalities, tasks, or objects of interest.
 For example, *sMRIPrep* was identified as a set of workflows that would be useful when used separately or in coordination with other modalities (e.g., DWI), although all the code was originally under the *fMRIPrep*'s repository and was not distributed as a standalone application.
@@ -150,10 +150,10 @@ An example of this option will be set out by the extraction of the visual report
 In either case, the Maintainers of the source project are responsible for taking all the reasonable measures to preserve the VCS (version control system) history whenever possible, as well as ensuring the `CONTRIBUTORS.md` files of source and target projects are up-to-date and properly represent contributors.
 If a contributor is to be transferred (or duplicated) into a sibling organization, they must be properly noticed.
 
-#### 8.5. Upstreaming to other organizations
+#### 8.6. Upstreaming to other organizations
 
 The most common case for these source code transfers will be the upstreaming of features to NiPype.
-As for **8.4.ii**, the Maintainers of the source project are responsible for ensuring that the procedure is carried out correctly:
+As for **8.5.ii**, the Maintainers of the source project are responsible for ensuring that the procedure is carried out correctly:
 
 * keeping track of contributions and crediting thereof;
 * communicating with the Maintainers of the receiving Project and coordinating any necessary actions;
@@ -161,7 +161,15 @@ As for **8.4.ii**, the Maintainers of the source project are responsible for ens
 * whenever possible, guide and help contributors in the process of upstreaming the code themselves;
 * notify the NSC of the outbound code sharing action and assume any decision on the contrary, should it be issued.
 
-## 9. Authorship and scientific publications
+## 9. GOVERNANCE changes
+
+Changes to the GOVERNANCE repository can be proposed with the pull-request utility of GitHub.
+The NSC will designate one or more [*GitHub CODEOWNERS*](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), who will ensure all pull-requests are properly handled, given the opportunity to be discussed and finally approved and merged.
+CODEOWNERS will elevate pull-request conversations for consideration by the NSC whenever it is necessary.
+The NSC will define how many CODEOWNERS must sign off a pull-request before it is accepted.
+In case that a CODEOWNER disagrees with the acceptance decision of a pull-request, the NSC can decide the removal of the individual as a CODEOWNER and replace them if necessary.
+
+## 10. Authorship and scientific publications
 
 All end-user applications and core components have a `.main/` folder directly under the repository's root containing files and scripts to prepare author's lists before publication in scientific journals and or posting preprints or Zenodo entries.
 How these resources under `.maint/` must be used is described in the `project-docs/GOVERNANCE.md` document.
@@ -170,12 +178,10 @@ End-user applications and core components that make use of other core components
 All authors within the consortium must be listed in the paper, following the guidelines of the journal to the effect.
 The collective of authors list is maintained in the `org-docs/COLLECTIVE-OF-AUTHORS.md` file.
 
-## 10. Enforcement of the Code of Conduct
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting Oscar Esteban at <code@oscaresteban.es>
-or Chris Markiewicz at <markiewicz@stanford.edu>, two members of the project team.
+## 11. Enforcement of the Code of Conduct
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting some an ombudsperson listed in the file `OMBUDS.md`.
 
-## 11. Amendments
+## 12. Amendments
 
 Amendments to this charter, the antitrust policy, the trademark policy, or the code of conduct may only be made with at least a 3/4 affirmative vote of the NSC.
 

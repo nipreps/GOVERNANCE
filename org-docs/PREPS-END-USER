@@ -1,0 +1,17 @@
+# End-user applications
+
+The list of current end-user applications of the Organization is:
+
+| **NAME** | **GITHUB** | **URL** | **MEMBERSHIP** | **STATUS** |
+| --- | --- | --- | --- | --- |
+| fMRIPrep | https://github.com/nipreps/fmriprep | https://www.fmriprep.org | Full | Active development |
+| dMRIPrep | https://github.com/nipreps/dmriprep | | Full | Active development |
+| sMRIPrep | https://github.com/nipreps/smriprep | | Full | Active development |
+| MRIQC | https://github.com/nipreps/mriqc | https://www.mriqc.org | Full | Active development |
+| fMRIPrep-rodents | https://github.com/nipreps/fmriprep-rodents | | Full | Active development |
+| fMRIPrep-infants | https://github.com/nipreps/nibabies | | Full | Active development |
+| PETPrep | https://github.com/mnoergaard | | Processing | Active development |
+| ASLPrep | https://github.com/PennLINC/aslprep | Under consideration | Maintenance |
+| EEGPrep | | | Planned | Uninitiated |
+| MEGPrep | | | Planned | Uninitiated |
+| fNIRSPrep | | | Planned | Uninitiated |
