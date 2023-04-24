@@ -3,7 +3,7 @@
 Ombuds serve voluntarily for as long as they are willing to sustain their commitment (see eligibility requirements below). Ombudspersons of the NiPreps Community have two primary responsibilities:
 
   1. to serve as a point of contact to receive reports and listen to individuals and groups involved in the NiPreps Community to assist them in determining the options to resolve conflicts, miscommunication issues, violations of the Code of Conduct, or any unacceptable behavior by member(s) of this community.
-  1. to bring systemic concerns to the attention of the NSC for resolution.
+  1. to bring systemic concerns to the attention of the NiPreps Steering Committee for resolution.
 
 The NiPreps Ombuds team is guided by the [Code of Ethics](https://www.ombudsassociation.org/assets/IOA%20Code%20of%20Ethics.pdf) of the International Ombudsman Association (IOA).
 
