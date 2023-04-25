@@ -178,8 +178,11 @@ End-user applications and core components that make use of other core components
 All authors within the consortium must be listed in the paper, following the guidelines of the journal to the effect.
 The collective of authors list is maintained in the `org-docs/COLLECTIVE-OF-AUTHORS.md` file.
 
-## 11. Enforcement of the Code of Conduct
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting some an ombudsperson listed in the file `OMBUDS.md`.
+## 11. Ombuds team
+
+The NiPreps Community recognizes the importance of providing a safe and inclusive environment for all community members. To this end, the community has established an *Ombuds team* to serve as a neutral and confidential resource for community members who have concerns or complaints related to the community or its members. The Ombuds team role and responsibilities, as well as the guidelines of its functioning are further described in the file `OMBUDS.md`.
+
+**Enforcement of the Code of Conduct.** Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting an ombudsperson listed in the file `OMBUDS.md`.
 
 ## 12. Amendments
 
