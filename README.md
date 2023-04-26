@@ -7,6 +7,6 @@ At the top level (called an "organization" on GitHub; [github.com/nipreps](https
 Underneath that top level are the individual projects (e.g., [nipreps/fmriprep](https://github.com/nipreps/fmriprep)), with lightweight, consensus-based governance.
 The third tier are "sibling organizations" (e.g., [TemplateFlow](https://github.com/templateflow/), which have the structure of GitHub "organizations" but the governance of individual projects (i.e., lightweight, consensus-based).
 
-There documents are organized in three folders. The first, `org-docs/`, provides top-level organizational governance and polices for a technical steering committee (TSC).
+The Governance Documents are organized in three folders. The first, `org-docs/`, provides top-level organizational governance and polices for a technical steering committee (TSC).
 The second folder, `project-docs/`, provides a template for individual project governance, subject to the polices and oversight of the larger organization.
 The third folder, `sibling-docs/`, provides a minimal template for the governance of sibling organizations, subject to the policies and oversight of the *NiPreps* organization.
