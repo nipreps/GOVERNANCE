@@ -4,8 +4,9 @@ This document lists the members of the Organization's Steering Committee. Voting
 
 | **NAME** | **Handle** | **Affiliated Organization** |
 | --- | --- | --- |
-| [Steering Committee Member] | [handle ] | [affiliation] |
-|  ... | ... | ... |
+| Oscar Esteban | @oesteban | Lausanne University Hospital, Lausanne, Switzerland |
+| Chris Markiewicz | @effigies | Stanford University, Stanford, CA, USA |
+| Martin Nørgaard | @mnoergaard | University of Copenhagen, Copenhagen, Denmark, and Molecular Imaging Branch, National Institute of Mental Health, Bethesda MD, USA |
 
 ---
 Part of MVG-0.1-beta.
