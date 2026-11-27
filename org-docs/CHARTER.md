@@ -26,7 +26,7 @@ Finally, the NSC is also ultimately responsible for securing the coordination of
 
 **2.2 Composition**. The NSC voting members are listed in the `STEERING-COMMITTEE.md` file in the repository.
 Voting members may be added or removed by no less than three-quarters (3/4) affirmative vote of the NSC.
-The number of members of the NSC is must be an odd number, and it is three (3) as of the approval of this document.
+The number of members of the NSC must be an odd number. It was three (3) as of the approval of this document, and it was extended to five (5) in June 2025 ([nipreps/GOVERNANCE#47](https://github.com/nipreps/GOVERNANCE/issues/47)).
 Although not mandatory, members of the NSC preferably are active MAINTAINERS of at least one NiPreps project of those listed in the `PREPS-END-USER.md` file (see section 8 below), be listed as a maintainer of the *TemplateFlow* sibling-organization, or have served in the past.
 In particular, this rule must be respected when adding and removing members.
 Therefore, the time lapse with an even number of members after the removal of a member should be minimized by appointing a replacement as fast as possible (or even before the removal).
